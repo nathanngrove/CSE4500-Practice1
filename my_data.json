@@ -18,5 +18,25 @@
       "period":"March 2018 - 2021",
       "description":"A description of your experience with this job."
     }
+  ],
+  "skills":[
+    {
+      "name":"Soft Skills",
+      "description":"A description of your soft skills."
+    },
+    {
+      "title":"Technical Skills",
+      "description":"A description of your technical skills."
+    }
+  ],
+  "interests":[
+    {
+      "name":"Interest 1",
+      "description":"A description of interest 1."
+    },
+    {
+      "title":"Interest 1",
+      "description":"A description of interest 2."
+    }
   ]
 }
