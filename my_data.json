@@ -5,6 +5,18 @@
   "phone": "(123)456-7890",
   "email": "name@mail.com",
   "introduction": "A introduction of youself ...",
+  "education":[
+    {
+      "school":"CSUSB",
+      "period":"September 2018 - Present",
+      "degree":"Bachelor's Degree"
+    },
+    {
+      "school":"High School",
+      "period":"August 2014 - May 2018",
+      "degree":"High School Diploma"
+    }
+  ],
   "experience":[
     {
       "title":"WEB DEVELOPER",
