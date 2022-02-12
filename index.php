@@ -81,8 +81,6 @@
           <?php foreach($json_data['skills'] AS $skills) { ?>
                   <h3><?php echo $skills['name']; ?></h3>
                   <p><?php echo $skills['description']; ?></p>
-                </div>
-              </div>
           <?php  } ?>
         </div>
       </div>
@@ -93,8 +91,6 @@
           <?php foreach($json_data['interests'] AS $interests) { ?>
                   <h3><?php echo $interests['name']; ?></h3>
                   <p><?php echo $interests['description']; ?></p>
-                </div>
-              </div>
           <?php  } ?>
         </div>
       </div>
