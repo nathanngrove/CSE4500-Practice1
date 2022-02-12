@@ -22,6 +22,8 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#interests">Interests</a>
         </nav>
       </nav>
     </div>
@@ -57,6 +59,34 @@
                 </div>
                 <div class="flex-shrink-0">
                   <span class="text-primary"><?php echo $experience['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
+        </div>
+      </div>
+      <hr>
+        <div id="skills" class="content-item">
+        <div class="vertical-center">
+          <h2>Skills</h2>
+          <?php foreach($json_data['skills'] AS $skills) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $skills['name']; ?></h3>
+                  <p><?php echo $experience['description']; ?></p>
+                </div>
+              </div>
+          <?php  } ?>
+        </div>
+      </div>
+      <hr>
+        <div id="interests" class="content-item">
+        <div class="vertical-center">
+          <h2>Interests</h2>
+          <?php foreach($json_data['interests'] AS $interests) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $interests['name']; ?></h3>
+                  <p><?php echo $experience['description']; ?></p>
                 </div>
               </div>
           <?php  } ?>
