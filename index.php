@@ -43,7 +43,17 @@
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h2>Education</h2>
-          <p>...</p>
+          <?php foreach($json_data['education'] AS $education) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $education['school']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $education['degree']; ?></div>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $education['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
         </div>
       </div>
       <hr>
@@ -72,7 +82,7 @@
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $skills['name']; ?></h3>
-                  <p><?php echo $experience['description']; ?></p>
+                  <p><?php echo $skills['description']; ?></p>
                 </div>
               </div>
           <?php  } ?>
@@ -86,7 +96,7 @@
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $interests['name']; ?></h3>
-                  <p><?php echo $experience['description']; ?></p>
+                  <p><?php echo $interests['description']; ?></p>
                 </div>
               </div>
           <?php  } ?>
