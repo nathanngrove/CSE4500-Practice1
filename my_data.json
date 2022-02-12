@@ -37,7 +37,7 @@
       "description":"A description of your soft skills."
     },
     {
-      "title":"Technical Skills",
+      "name":"Technical Skills",
       "description":"A description of your technical skills."
     }
   ],
@@ -47,7 +47,7 @@
       "description":"A description of interest 1."
     },
     {
-      "title":"Interest 1",
+      "name":"Interest 2",
       "description":"A description of interest 2."
     }
   ]
