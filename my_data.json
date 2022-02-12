@@ -8,13 +8,13 @@
   "education":[
     {
       "school":"CSUSB",
-      "period":"September 2018 - Present",
-      "degree":"Bachelor's Degree"
+      "degree":"Bachelor's Degree",
+      "period":"September 2018 - Present"
     },
     {
       "school":"High School",
-      "period":"August 2014 - May 2018",
-      "degree":"High School Diploma"
+      "degree":"High School Diploma",
+      "period":"August 2014 - May 2018"
     }
   ],
   "experience":[
